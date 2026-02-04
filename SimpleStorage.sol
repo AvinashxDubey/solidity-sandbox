@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;  // this is the solidity version
+pragma solidity ^0.8.18;  // this is the solidity version
 
 contract SimpleStorage  {
     // basic types: boolean, uint, int, address, bytes
@@ -17,7 +17,7 @@ contract SimpleStorage  {
     // // bytes32 and byte are diff things, and 32 is the max bytes size
     // bytes32 favBytes32 = "meow";
 
-    function store(uint256 _myFavNumber) public {
+    function store(uint256 _myFavNumber) public virtual {
         myFavNumber = _myFavNumber;
         // retrieve(); // thisd charge more execution costs
     }
