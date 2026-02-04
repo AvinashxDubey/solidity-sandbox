@@ -1,18 +1,13 @@
-# Remix generated files
 artifacts/
 .states/
 
-# Logs (future-proof)
 *.log
 
-# OS junk
 .DS_Store
 Thumbs.db
 
-# Editor configs (optional but recommended)
 .vscode/
 .idea/
 
-# Environment variables (future-proof)
 .env
 .env.*
