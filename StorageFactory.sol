@@ -12,7 +12,7 @@ contract StorageFactory {
         listOfSimpleStorageContracts.push(newSimpleStorageContract);
     }
 
-    // serves as a bridge, translating high-level, human-readable function calls
+    // ABI (Application Binary Interface) serves as a bridge, translating high-level, human-readable function calls
     //  (e.g., transfer(address,uint256)) into the specific, low-level hexadecimal bytecode
     //   that the Ethereum Virtual Machine (EVM) understands.
 
